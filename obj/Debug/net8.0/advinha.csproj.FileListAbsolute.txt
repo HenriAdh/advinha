@@ -12,3 +12,4 @@ C:\Users\henrique.pires\Documents\pessoal\CSharp\advinha\obj\Debug\net8.0\refint
 C:\Users\henrique.pires\Documents\pessoal\CSharp\advinha\obj\Debug\net8.0\advinha.pdb
 C:\Users\henrique.pires\Documents\pessoal\CSharp\advinha\obj\Debug\net8.0\advinha.genruntimeconfig.cache
 C:\Users\henrique.pires\Documents\pessoal\CSharp\advinha\obj\Debug\net8.0\ref\advinha.dll
+c:\Users\henrique.pires\Documents\pessoal\CSharp\advinha\obj\Debug\net8.0\advinha.sourcelink.json
