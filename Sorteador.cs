@@ -1,6 +1,6 @@
 public class Sorteador
 {
-  private int Numero = 0;
+  public int Numero = 0;
   public int Dificuldade = 0;
 
   public Sorteador() { }

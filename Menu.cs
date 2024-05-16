@@ -13,11 +13,23 @@ public class Menu
 
   public int MenuJogo(Jogador jogador, int dificuldade)
   {
-    Console.Clear();
-    Console.WriteLine($"Vidas: {jogador.Vida}\n");
-    Console.WriteLine($"Qual seria o seu palpite? (0 a {dificuldade * 20})");
-    int palpite = Convert.ToInt32(Console.ReadLine() ?? "41");
-    return palpite;
+    while (true)
+    {
+      int numero;
+      Console.Clear();
+      Console.WriteLine($"Vidas: {jogador.Vida}\n");
+      Console.WriteLine($"Qual seria o seu palpite? (0 a {dificuldade * 20})");
+      string? palpite = Console.ReadLine();
+      bool tryParse = int.TryParse(palpite, out numero);
+      if (!tryParse)
+      {
+        Console.WriteLine($"\nDigite um número válido entre 0 e {dificuldade * 20}");
+      }
+      else
+      {
+        return numero;
+      }
+    }
   }
 
   public bool MenuJogarNovamente()

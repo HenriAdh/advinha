@@ -1,5 +1,8 @@
 ﻿Console.Write("Olá jogador! Como gostaria de ser chamado? ");
-string nome = Console.ReadLine() ?? "Jogador";
+string? nome = Console.ReadLine();
+if (nome == null || nome == ""){
+  nome = "Jogador";
+}
 
 Jogador jogador = new Jogador(nome);
 Sorteador sorteador = new Sorteador();
@@ -18,9 +21,13 @@ while (true)
   {
     case "1":
       sorteador.ConfigurarDificuldade(1);
+      jogador.ConfigurarVida(5);
+      Jogar();
       break;
     case "2":
       sorteador.ConfigurarDificuldade(2);
+      jogador.ConfigurarVida(10);
+      Jogar();
       break;
     default:
       Console.Clear();
@@ -28,7 +35,9 @@ while (true)
       Console.ReadKey();
       break;
   }
+}
 
+void Jogar(){
   while (true)
   {
     int palpite = menus.MenuJogo(jogador, sorteador.Dificuldade);
@@ -39,12 +48,31 @@ while (true)
       bool res = menus.MenuJogarNovamente();
       if (res)
       {
+        sorteador.ConfigurarDificuldade(sorteador.Dificuldade);
+        jogador.ConfigurarVida(sorteador.Dificuldade * 5);
+      }
+      else
+      {
         break;
       }
     }
     else
     {
       jogador.PerderVida();
+      if (jogador.Vida == 0)
+      {
+        Console.WriteLine($"\nGame Over! O número sorteado foi: {sorteador.Numero}");
+        bool res = menus.MenuJogarNovamente();
+        if (res)
+        {
+          sorteador.ConfigurarDificuldade(sorteador.Dificuldade);
+          jogador.ConfigurarVida(sorteador.Dificuldade * 5);
+        }
+        else
+        {
+          break;
+        }
+      }
     }
   }
 }
