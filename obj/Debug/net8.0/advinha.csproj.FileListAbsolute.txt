@@ -1,0 +1,14 @@
+C:\Users\henrique.pires\Documents\pessoal\CSharp\advinha\bin\Debug\net8.0\advinha.exe
+C:\Users\henrique.pires\Documents\pessoal\CSharp\advinha\bin\Debug\net8.0\advinha.deps.json
+C:\Users\henrique.pires\Documents\pessoal\CSharp\advinha\bin\Debug\net8.0\advinha.runtimeconfig.json
+C:\Users\henrique.pires\Documents\pessoal\CSharp\advinha\bin\Debug\net8.0\advinha.dll
+C:\Users\henrique.pires\Documents\pessoal\CSharp\advinha\bin\Debug\net8.0\advinha.pdb
+C:\Users\henrique.pires\Documents\pessoal\CSharp\advinha\obj\Debug\net8.0\advinha.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\henrique.pires\Documents\pessoal\CSharp\advinha\obj\Debug\net8.0\advinha.AssemblyInfoInputs.cache
+C:\Users\henrique.pires\Documents\pessoal\CSharp\advinha\obj\Debug\net8.0\advinha.AssemblyInfo.cs
+C:\Users\henrique.pires\Documents\pessoal\CSharp\advinha\obj\Debug\net8.0\advinha.csproj.CoreCompileInputs.cache
+C:\Users\henrique.pires\Documents\pessoal\CSharp\advinha\obj\Debug\net8.0\advinha.dll
+C:\Users\henrique.pires\Documents\pessoal\CSharp\advinha\obj\Debug\net8.0\refint\advinha.dll
+C:\Users\henrique.pires\Documents\pessoal\CSharp\advinha\obj\Debug\net8.0\advinha.pdb
+C:\Users\henrique.pires\Documents\pessoal\CSharp\advinha\obj\Debug\net8.0\advinha.genruntimeconfig.cache
+C:\Users\henrique.pires\Documents\pessoal\CSharp\advinha\obj\Debug\net8.0\ref\advinha.dll
